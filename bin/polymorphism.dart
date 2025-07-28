@@ -11,6 +11,7 @@ class Person{
 class Student extends Person{
   @override
   void printdata() {
+    super.printdata();
     print("Iam a student");
   }
 }
